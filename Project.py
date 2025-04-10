@@ -9,8 +9,9 @@ IMG_WIDTH = 128
 BATCH_SIZE = 32
 
 # Image data generators (with data augmentation for training)
-train_dir = 'dataset/train'
-test_dir = 'dataset/test'
+train_dir = 'dataset/Blood_Cancer'
+test_dir = 'dataset/Blood_Cancer'  # we’ll use same folder for both just for now
+
 
 train_datagen = ImageDataGenerator(
     rescale=1./255,
